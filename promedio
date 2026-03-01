@@ -1,0 +1,24 @@
+Algoritmo Promedio_Estudiante
+    Definir nombre, apellido, completo Como Cadena
+    Definir nota1, nota2, nota3, promedio Como Real
+
+    Escribir "Escriba su nombre:"
+    Leer nombre
+
+    Escribir "Escriba su apellido:"
+    Leer apellido
+
+    Escribir "Ingrese la nota 1 del semestre:"
+    Leer nota1
+
+    Escribir "Ingrese la nota 2 del semestre:"
+    Leer nota2
+
+    Escribir "Ingrese la nota 3 del semestre:"
+    Leer nota3
+
+    completo <- nombre + " " + apellido
+    promedio <- (nota1 + nota2 + nota3) / 3
+
+    Escribir "La nota definitiva del semestre de ", completo, " es: ", promedio
+FinAlgoritmo
